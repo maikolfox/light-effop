@@ -1,9 +1,18 @@
 import React, { Component } from 'react';
 import SideBar from './components/SideBar.jsx';
-import Content from './components/Content.jsx';
+import TauxDactivite from './components/mainContent/TauxDactivite.jsx';
 import Breadcrumb from './components/Breadcrumb.jsx';
 import MainHeader from './components/MainHeader.jsx';
 import MainNavBar from './components/MainNavbar.jsx';
+
+
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+} from 'react-router-dom'
+
+
 
 
 class App extends Component {
@@ -11,7 +20,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <MainNavBar />
+        {/* <MainNavBar /> */}
         <MainHeader />
         {/* <Breadcrumb /> */}
         <section id="main">
@@ -21,6 +30,7 @@ class App extends Component {
               {/* <SideBar /> */}
               {/* <!--main content--> */}
               {/* <Content panelTitle="Main title" /> */}
+            
             </div>
           </div>
         </section>
