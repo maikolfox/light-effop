@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import SideBar from './components/SideBar.jsx';
+import Content from './components/Content.jsx';
+import Breadcrumb from './components/Breadcrumb.jsx';
+import MainHeader from './components/MainHeader.jsx';
+import MainNavBar from './components/MainNavbar.jsx';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+
+  render() {
+    return (
+      <div>
+        <MainNavBar />
+        <MainHeader />
+        {/* <Breadcrumb /> */}
+        <section id="main">
+          <div class="container">
+            <div class="row">
+              {/* <!--left menu bar--> */}
+              {/* <SideBar /> */}
+              {/* <!--main content--> */}
+              {/* <Content panelTitle="Main title" /> */}
+            </div>
+          </div>
+        </section>
+      </div>
+    );
+  }
 }
 
 export default App;
