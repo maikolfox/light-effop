@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
 
-class NavBar extends Component {
+class FilDariane extends Component {
 
     render() {
         return (
@@ -9,7 +9,7 @@ class NavBar extends Component {
             <section id="breadcrumb">
                 <div class="container">
                     <ol class="breadcrumb">
-                        <li class="active">Dashboard</li>
+                        <li class="active">Home >{this.props.location}</li>
                     </ol>
                 </div>
             </section>
@@ -18,4 +18,4 @@ class NavBar extends Component {
     }
 }
 
-export default NavBar;
+export default FilDariane;

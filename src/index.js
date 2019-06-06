@@ -20,16 +20,16 @@ import * as serviceWorker from './serviceWorker';
  <Router>
      <div>
      <App/>
-         <div class="col-md-3">
-             <div class="list-group">
-                 <a href="#" class="list-group-item active main-color-bg">
-                     <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>Menu Géneral
+         <div className="col-md-3">
+             <div className="list-group">
+                 <a href="#" className="list-group-item active main-color-bg">
+                     <span className="glyphicon glyphicon-cog" aria-hidden="true"></span>Menu Géneral
                  </a>
-                 <a href="/TauxDactivite" class="list-group-item">Taux d'activité mensuel</a>
-                 <a href="/contact" class="list-group-item">Charges et poids par emplois</a>
-                 <a href="#" class="list-group-item">Charge et poids par processus</a>
-                 <a href="#" class="list-group-item">Charge et poids par tache et par processus</a>
-                 <a href="#" class="list-group-item">Charge et poids par tache et par processus</a>
+                 <a href="/TauxDactivite" className="list-group-item">Taux d'activité mensuel</a>
+                 <a href="/contact" className="list-group-item">Charges et poids par emplois</a>
+                 <a href="#" className="list-group-item">Charge et poids par processus</a>
+                 <a href="#" className="list-group-item">Charge et poids par tache et par processus</a>
+                 <a href="#" className="list-group-item">Charge et poids par tache et par processus</a>
              </div>
          </div>
          <Route path="/users" component={Content2} />
