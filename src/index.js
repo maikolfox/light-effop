@@ -5,8 +5,7 @@ import App from './App';
 
 import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom';
 
-import Users from './components/users.jsx';
-import Contact from './components/contact.jsx';
+
 import TauxDactivite from './components/mainContent/TauxDactivite.jsx';
 import Content2 from './components/Content2.jsx';
 

@@ -2,6 +2,15 @@ body{
     background:#f4f4f4;
 
 }
+button {outline:0;}
+/*Button */ 
+
+#lineChartValider, #lineChartAnnuler
+{
+   padding-left:25px;
+   padding-right:25px;
+   border-radius: 1000px;
+}
 
 /*Breadcrumb*/
 
@@ -11,6 +20,7 @@ body{
   color: #3333;
 
 }
+
 
 
 .breadcrumb a
@@ -44,10 +54,6 @@ body{
     margin-bottom:17px;
 
 }
-
-
-
-
 
 #header .create{
 
